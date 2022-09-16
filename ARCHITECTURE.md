@@ -1,4 +1,4 @@
-## Trigger Framework
+## Trigger Framework (Domain Layer)
 In our projects, we use [Trigger Framework](https://github.com/kevinohara80/sfdc-trigger-framework) for writing our triggers, because of [several reasons](https://trailhead.salesforce.com/content/learn/modules/success-cloud-coding-conventions/implement-frameworks-sc).
 This trigger framework bundles a single `TriggerHandler` base class that you can inherit from in all of your trigger handlers. The base class includes context-specific methods that are automatically called when a trigger is executed.
 
@@ -35,5 +35,14 @@ trigger OpportunityTrigger on Opportunity (before insert, before update) {
   new OpportunityTriggerHandler().run();
 }
 ```
-## Important info!
+TriggerHandler is [Domain layer](https://trailhead.salesforce.com/content/learn/modules/apex_patterns_dsl/apex_patterns_dsl_learn_dl_principles) of our application based on Apex Enterprise Patterns. The Apex Domain class is consumed by the Apex trigger handler and Apex service.
+
+<p align="center"><img width="500" alt="demo" src="https://user-images.githubusercontent.com/89274213/190668809-5ce1505c-1f7c-424a-9d98-3a3bdc04bc74.png"></p>
+
+### Important info!
 Create only **one** trigger, **one** triggerhandler and **one** service classes per one object. If there is already created classes for object, which you want to implement trigger - you should just extend the existing classes.
+
+## Service Layer
+The [Service layer](https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl/apex_patterns_sl_learn_sl_principles) helps you form a clear and strict encapsulation of code implementing business tasks, calculations and processes. Each sObject has single Service class, which will be extended by additional logic. TriggerHandlers consumes all logic from Service layer and don't contain any logic.
+
+<p align="center"><img width="500" alt="demo" src="https://user-images.githubusercontent.com/89274213/190670906-ccc6b802-de61-4bd1-bb74-27539cbc9ca8.png"></p>
