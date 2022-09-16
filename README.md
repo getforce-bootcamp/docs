@@ -21,7 +21,7 @@ Visual Studio Code is a streamlined code editor with support for development ope
 - [Install Visual Studio Code](https://code.visualstudio.com/download)
 - [Set Up Visual Studio Code](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/set-up-visual-studio-code)
 
-# Project Set up
+# Project Setup
 Before setting up project, make sure to install applications above and complete all required steps.
 - [Setup Guide](/SETUP.md)
 
@@ -30,6 +30,7 @@ The architecture of a software system is a metaphor, analogous to the architectu
 - [Read About Architecture In This Projects](/ARCHITECTURE.md)
 
 # Workflow
+Next page will show you the series of activities that are necessary to complete a task.
 - [Read About Workflow On Projects](/WORK-FLOW.md)
 
 # FAQ
