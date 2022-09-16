@@ -1,3 +1,6 @@
+## Separation of Concerns
+Software, like hairstyles, is often referred to as a living thing that changes and evolves over time. From the single-celled amoeba of a "Hello World" program, to the complexity of enterprise-level software, the range and variety in life also occurs in software. Complex organisms evolve systems for specialized purposes. Skeletons, muscles, and organs work as a unit, but they also interface with other systems to benefit the whole. [[Source]](https://trailhead.salesforce.com/content/learn/modules/apex_patterns_sl/apex_patterns_sl_soc)
+
 ## Trigger Framework (Domain Layer)
 In our projects, we use [Trigger Framework](https://github.com/kevinohara80/sfdc-trigger-framework) for writing our triggers, because of [several reasons](https://trailhead.salesforce.com/content/learn/modules/success-cloud-coding-conventions/implement-frameworks-sc).
 This trigger framework bundles a single `TriggerHandler` base class that you can inherit from in all of your trigger handlers. The base class includes context-specific methods that are automatically called when a trigger is executed.
