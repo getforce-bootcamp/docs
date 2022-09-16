@@ -20,7 +20,7 @@ Open new generated folder in Visual Studio Code and paste next command to Termin
 sfdx auth:web:login -d -a devhub
 ```
 Authorize to your Salesforce org in a new opened login page:
-<p align="center"><img width=400" alt="" src="https://user-images.githubusercontent.com/89274213/190689214-3af96c24-1ee0-4099-a62a-c41293441109.png"></p>
+<p align="center"><img width="400" alt="" src="https://user-images.githubusercontent.com/89274213/190689214-3af96c24-1ee0-4099-a62a-c41293441109.png"></p>
 
 ## Scratch Org
 1. Create a scratch org:
