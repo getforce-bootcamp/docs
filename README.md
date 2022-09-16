@@ -21,6 +21,10 @@ Visual Studio Code is a streamlined code editor with support for development ope
 - [Install Visual Studio Code](https://code.visualstudio.com/download)
 - [Set Up Visual Studio Code](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/set-up-visual-studio-code)
 
+# Project Set up
+Before setting up project, make sure to install applications above and complete all required steps.
+- [Setup Guide](/SETUP.md)
+
 # Architecture
 The architecture of a software system is a metaphor, analogous to the architecture of a building. It functions as a blueprint for the system and the developing project, which project management can later use to extrapolate the tasks necessary to be executed by the teams and people involved. [[Source]](https://en.wikipedia.org/wiki/Software_architecture)
 - [Read About Architecture In This Projects](/ARCHITECTURE.md)
